@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-from DDPM_MODEL import *
-from config import *
+from DDPM import *
+from Config import *
 
 
 # TODO 演示原始数据分布加噪100步后的效果

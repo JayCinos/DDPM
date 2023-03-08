@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-from config import *
-from DDPM_MODEL import *
+from Config import *
+from DDPM import *
 
 DATA_PATH = r"D:\tsinghua_me\diffusion model\test\DATASET.pt"
 dataset = torch.load(DATA_PATH)['dataset']
